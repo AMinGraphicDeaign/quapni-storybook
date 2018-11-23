@@ -1,0 +1,1 @@
+{"version":3,"file":"static/iframe.157ad7965325fd6eab52.bundle.js","sources":["webpack:///./src/components/nav/desktop.js"],"sourcesContent":["import React from 'react'\n\nexport const Nav = () => <div>Nav</div>\n"],"mappings":"AAAA","sourceRoot":""}
