@@ -1,0 +1,32 @@
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+ /*        滾 動 視 差         */
+
+ .parallax [class*="background"] {
+    height: 30vh;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    z-index: -10;
+    position: relative;
+
+    /* 滾動式差 與 上層組件 重疊設定 */
+    /* margin-top: -200px; */
+}
+
+.background {
+    background-image: url("https://i.imgur.com/EHwZSfP.jpg");
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .parallax [class*="background"] {
+        height: 18vh;
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: cover;
+        z-index: -10;
+        position: relative;
+
+        /* 滾動式差 與 上層組件 重疊設定 */
+        /* margin-top: -200px; */
+    }
+}
