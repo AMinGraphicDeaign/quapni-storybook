@@ -1,5 +1,5 @@
 export const bussiness_location = "https://i.imgur.com/fvwrifw.jpg"
 export const about_us = "https://i.imgur.com/NYugxwc.jpg"
 export const new_arrival = "https://i.imgur.com/KfsNjZk.jpg"
-export const quattor = "https://i.imgur.com/ilikX8R.jpg"
-export const front_wheel = "https://i.imgur.com/9J7lJeQ.jpg"
+export const quattro = "https://i.imgur.com/9J7lJeQ.jpg"
+export const front_wheel = "https://i.imgur.com/ilikX8R.jpg"

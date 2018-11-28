@@ -1,0 +1,129 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility; }
+
+img {
+    width: 100%; 
+}
+
+img.logo {
+    width: 200px;
+    margin: 3rem 0 1rem; 
+}
+
+
+/* =============================== */
+ /*     卡 片 式 設 計 _ 微 互 動     */
+
+ .zoom-in {
+    display: grid;
+    overflow: hidden;
+}
+
+.zoom-in img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
+}
+
+.zoom-in:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+.grid-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    text-shadow: #3F3F3F 0.1em 0.1em 0.2em;
+    font-size: 3.5vmin;
+}
+
+.card-container{
+    position: relative;
+}
+
+.grid-padding {
+    padding: 2pt !important;
+}
+
+.card-margin{
+    margin: 20vmin;
+}
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+/*      手 機 版  介面      */
+@media only screen and (max-width: 767px){
+    
+    .grid-padding {
+        padding-top:0vmin !important;
+        padding-left:0.3vmin !important;
+        padding-right:0.3vmin !important;
+    }
+
+    .grid-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        color: white;
+        text-shadow: #3F3F3F 0.1em 0.1em 0.2em;
+        font-size: 9vmin;
+    }
+
+    .card-margin{
+        margin-top: 0.6vmin;
+        margin-left: 0vmin;
+        margin-right: 0vmin;
+        margin-bottom: 0.1vmin;
+    }
+
+    /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+    /*   圖片長寬比 約3:2 適用  */
+    .img-mask{
+        height: 50vmin;
+        width: auto;
+        overflow: hidden;
+        
+    }
+    .img-mask img{
+        width: 100vmin;
+        height: auto;
+        position: relative;
+        top: -5vmin;
+    }
+
+    /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+    /*   圖片長寬比 約2:1 適用  */
+    .img-mask-others{
+        height: 50vmin;
+        width: auto;
+        overflow: hidden;
+    }
+    .img-mask-others img{
+        width: auto;
+        height: 60vmin;
+        position: relative;
+        top: -5vmin;
+    }
+}
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+/*   ipad、ipad pro版  介面     */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .card-margin{
+        margin-top: 15vmin;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+        margin-bottom: 15vmin;
+     }
+     
+}

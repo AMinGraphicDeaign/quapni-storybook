@@ -1,7 +1,7 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 import { Grid, Col, Row } from 'react-styled-flexboxgrid'
-import { instagram, facebook, iphone, youtube } from '../../image/icon';
+import { instagram, facebook, iphone, youtube } from '../../images/icon';
 
 import './footer.css'
 import 'semantic-ui-css/semantic.min.css';
