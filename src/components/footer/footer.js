@@ -95,9 +95,9 @@ export const Footer = () => (
                             </Row>
                         </Grid>
                     </ThemeProvider>
-                    
+
                     {  /*  分 隔 線  div  */}
-                    <div className="separationline" />
+                    <div className="separation-line" />
                 </div>
 
                 <div className="footer-div">
