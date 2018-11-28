@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility; }
+
+
+.ui.vertical.segment {
+  padding: 2rem 0; 
+}
+    
+
+.footer-div a {
+    float: right !important;
+    margin-left: 30px;
+    color: floralwhite;
+}
+
+.separationline
+{
+    width: 1200px;
+    height: 1px;
+    margin: 20px auto;
+    padding: 0;
+    background: #3F3F3F;
+    overflow: hidden;
+}
+
+.icon-size
+{
+    width:40px;
+    margin:3.6px;
+}
+
+.footer-container{
+    margin-left:0;
+    margin-right:0;
+}
+
+@media screen and (min-width: 768px){
+    .application-layout{
+       text-align: right;
+       margin-left: 10vmin;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .mobile-layout{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 5vmin;
+    }
+    .mobile-layout h4{
+        font-size: 7vmin;
+    }
+    .application-layout{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .application-layout h4{
+        font-size: 7vmin;
+    }
+}
