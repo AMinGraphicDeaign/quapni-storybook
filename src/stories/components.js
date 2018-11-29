@@ -6,6 +6,7 @@ import { Footer } from '../components/footer/footer'
 import { Category } from '../components/category/category'
 import { Parallax } from '../components/parallax/parallax'
 import { Slideshow } from '../components/slideshow/desktop/slideshow'
+import { MobileSlideshow } from '../components/slideshow/mobile/slideshow'
 
 storiesOf('Components', module)
          .add('Nav', () => <Nav />)
@@ -13,3 +14,4 @@ storiesOf('Components', module)
          .add('Category',() => <Category /> )
          .add('Parallax',() => <Parallax /> )
          .add('Slideshow',() => <Slideshow /> )
+         .add('MobileSlideshow',() => <MobileSlideshow /> )
