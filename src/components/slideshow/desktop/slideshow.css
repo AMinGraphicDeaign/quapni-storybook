@@ -1,0 +1,205 @@
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+/* 幻 燈 片   大 小 邊 界   設定 */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .box-margin{
+        margin-top: 8vmin;
+        margin-bottom: 10vmin;
+        margin-right: 7vmin;
+        margin-left: 7vmin;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1600px){
+    .box-margin{
+        margin: 16vmin;
+    }
+}
+
+@media only screen and (min-width: 1601px){
+    .box-margin{
+        margin-top: 22vmin;
+        margin-bottom: 16vmin;
+        margin-right: 22vmin;
+        margin-left: 22vmin;
+    }
+}
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+/*  幻 燈 片   文 字 段 落   設 定  */
+.paragraph-notestyle{
+    border-top-color: rgb(20, 20, 20);
+    border-bottom-color: #ff7576;
+    border-right: none !important;
+    border-left: none !important;
+    border-style: solid;
+
+    padding-top: 4vmin;
+    padding-bottom: 4vmin;
+    padding-right: 10vmin;
+    padding-left: 10vmin;
+    
+    font-size: 3vmin;
+    font-style:italic;
+    line-height: 2.8vmin;
+    letter-spacing: 0.5vmin;
+    text-align: center;
+     
+    position: absolute;
+    top: 35%;
+    left:12%;
+    float: left;
+    background: rgb(255, 255, 255, 0.8);
+}
+.paragraph-style{
+    border-top-color: rgb(20, 20, 20);
+    border-bottom-color: #ff7576;
+    border-right: none !important;
+    border-left: none !important;
+    border-style: solid;
+
+    padding-top: 4vmin;
+    padding-bottom: 4vmin;
+
+    font-size: 3vmin;
+    font-style:italic;
+    line-height: 2.8vmin;
+    letter-spacing: 0.5vmin;
+    text-align: center;
+     
+    position: absolute;
+    top: 35%;
+    left:12%;
+    float: left;
+}
+.slogan{
+    font-size: 3vmin;
+    font-style:italic;
+    line-height: 2.8vmin;
+    letter-spacing: 0.5vmin;
+    text-align: left;
+     
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+/*  幻 燈 片   基 本   設 定  */
+
+.carousel-wrapper {
+    height: 30vmax;
+    max-width: 130vmax;
+    position: relative;
+    box-shadow: 0px 0px 20px #B5B5B5;
+    background-color: rgb(255, 255, 255);
+}
+
+/*  幻 燈 片標 題  */
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* padding: 10vmin 16vmin; */
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    font-size: 6vmin;
+    font-style:italic;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background: url("https://svgshare.com/i/9VE.svg") 50% 50% / 80px no-repeat;
+    -webkit-filter: drop-shadow(1px 1px 2px rgba(3, 43, 43, 0.7));
+    filter: drop-shadow(1px 1px 2px rgba(43, 43, 43, 0.7))
+}
+
+.arrow-prev {
+    left: 0;
+}
+
+.arrow-next {
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.light {
+    color: white;
+}
+
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+/*  響應式 左右箭頭 大小設定  */
+/* @media (max-width: 480px) {
+
+    .arrow,
+    .light .arrow {
+        background-size: 40px;
+        background-position: 10px 50%;
+    }
+} */
+
+
+
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+/*   幻 燈 片    更 換 圖 片 內 容    設 定 */
+/*Select every element*/
+
+[id^="item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url('https://i.imgur.com/MUMi2mK.jpg');
+    background-size: cover; 
+}
+
+.item-2 {
+    background: url('https://i.imgur.com/zKrjV3W.jpg');
+    background-size: cover;
+}
+
+.item-3 {
+    background: url('https://i.imgur.com/FOMtxiQ.jpg');
+    background-size: cover;
+}
+
+.item-4 {
+    background: url('https://i.imgur.com/x9pvoaA.jpg');
+    background-size: cover;
+}
+
+*:target~.item-1 {
+    opacity: 0;
+}
+
+#item-1:target~.item-1 {
+    opacity: 1;
+}
+
+#item-2:target~.item-2,
+#item-3:target~.item-3,
+#item-4:target~.item-4 {
+    z-index: 4;
+    opacity: 1;
+}
+
+

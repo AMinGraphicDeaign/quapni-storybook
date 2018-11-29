@@ -5,9 +5,11 @@ import { Nav } from '../components/nav/desktop'
 import { Footer } from '../components/footer/footer'
 import { Category } from '../components/category/category'
 import { Parallax } from '../components/parallax/parallax'
+import { Slideshow } from '../components/slideshow/desktop/slideshow'
 
 storiesOf('Components', module)
          .add('Nav', () => <Nav />)
          .add('Footer', () => <Footer />)
          .add('Category',() => <Category /> )
          .add('Parallax',() => <Parallax /> )
+         .add('Slideshow',() => <Slideshow /> )
