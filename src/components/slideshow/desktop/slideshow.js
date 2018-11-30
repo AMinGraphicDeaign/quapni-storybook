@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import '../../../../node_modules/slick-carousel/slick/slick.css'
 import '../../../../node_modules/slick-carousel/slick/slick-theme.css'
 import './slideshow.css'
+import { working, nazaca_01, nazaca_02, camellia_01 } from "../../../images/slideshow";
 
 
 export class Slideshow extends Component {
@@ -22,14 +23,14 @@ export class Slideshow extends Component {
             <div>
                 <Slider {...settings} className="slick-wrapper">
                     <div className="slick-img-mask">
-                        <img src={"https://i.imgur.com/MUMi2mK.jpg"} />
+                        <img src={working} />
                         <div className="slogan">
                             我們相信<br />唯有用心堅持<br />才能看見與眾不同
                         </div>
                     </div>
 
                     <div className="slick-img-mask">
-                        <img src={"https://i.imgur.com/zKrjV3W.jpg"} />
+                        <img src={nazaca_01} />
                         <div className="slick-title">前打輪</div>
                         <div className="paragraph-style">
                             <div>單款風格化。固定柄設計</div><br />
@@ -38,7 +39,7 @@ export class Slideshow extends Component {
                     </div>
 
                     <div className="slick-img-mask">
-                        <img src={"https://i.imgur.com/x9pvoaA.jpg"} />
+                        <img src={nazaca_02} />
                         <div className="slick-title">納茲卡</div>
                         <div className="paragraph-notestyle">
                             <div>靈活無限。順暢無阻</div><br />
@@ -47,7 +48,7 @@ export class Slideshow extends Component {
                     </div>
 
                     <div className="slick-img-mask">
-                        <img src={"https://i.imgur.com/FOMtxiQ.jpg"} />
+                        <img src={camellia_01} />
                         <div className="slick-title">山茶</div>
                         <div className="paragraph-style">
                             <div>專利設計 - 壓鈕機構快拆</div><br />
