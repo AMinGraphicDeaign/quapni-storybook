@@ -38,19 +38,14 @@ export class Navigation extends Component {
                 >
                     <div className="menu-basic-style">
 
-
                         {/* 內 容 放 置 區 */}
                         <div className="header-content">
-
-
                             <div className="header-logo">
                                 <a href="/">
                                     <img alt="quapni_logo" src={quapni_logo} style={{ width: 150 }} />
                                 </a>
                             </div>
-
                             <div className="header-navigation">
-
                                 <ul className="nav-basic">
                                     <li>
                                         <a className="browse-item-basic" href="/brand">品牌故事</a>
@@ -94,10 +89,7 @@ export class Navigation extends Component {
                                         </div>
                                     </li>
                                 </ul>
-
                             </div>
-
-
                             <div style={{ marginRight: 30 }}>
                                 <ul className="nav-basic right-basic">
                                     <li>
@@ -105,8 +97,6 @@ export class Navigation extends Component {
                                     </li>
                                 </ul>
                             </div>
-
-
                             <div style={{ marginRight: 30 }}>
                                 <ul className="nav-basic right-basic">
                                     <li>
@@ -116,9 +106,7 @@ export class Navigation extends Component {
                                     </li>
                                 </ul>
                             </div>
-
                         </div>
-
                     </div>
 
                 </Sidebar.Pusher>
