@@ -8,13 +8,9 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
-
-    filter: blur(20px);
-    -o-filter: blur(20px);
-    -ms-filter: blur(20px);
-    -moz-filter: blur(20px);
-    -webkit-filter: blur(20px);
-
+    /* ＝＝＝＝＝＝＝＝＝＝ */
+    /* 這裡沒有放入blur效果 */
+    /* ＝＝＝＝＝＝＝＝＝＝ */
     position: absolute;
     height: 700px;
     width: auto;
