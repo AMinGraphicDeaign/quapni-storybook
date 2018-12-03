@@ -9,6 +9,7 @@ import { MobileSlideshow } from '../components/slideshow/mobile/slideshow'
 import { NavigationHome } from '../components/navigation/desktop/navigationHome';
 import { MobileNavigation } from '../components/navigation/mobile/navigation'
 import { Navigation } from '../components/navigation/desktop/navigation'
+import { Hero } from '../components/hero/hero'
 storiesOf('Components', module)
          .add('Navigation', () => <Navigation />)
          .add('NavigationHome', () => <NavigationHome />)
@@ -18,4 +19,5 @@ storiesOf('Components', module)
          .add('Parallax',() => <Parallax /> )
          .add('Slideshow',() => <Slideshow /> )
          .add('MobileSlideshow',() => <MobileSlideshow /> )
+         .add('Hero',() => <Hero />)
         
