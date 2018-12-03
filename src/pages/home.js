@@ -1,9 +1,9 @@
 import React from 'react'
-import { Navigation } from '../components/navigation/desktop/navigation'
+import { NavigationHome } from '../components/navigation/desktop/navigationHome'
 
 export const Home = () => (
 	<div>
-		<Navigation />
+		<NavigationHome />
 		home 的 page
 	</div>
 )
