@@ -28,7 +28,6 @@ export class MobileNavigation extends Component {
     
             return (
                 // <Responsive maxWidth={919}>
-                <div>
                     <Sidebar.Pushable as={Segment}>
                         <Sidebar as={Menu} animation='cover' inverted vertical visible={sidebarOpened}>
                             <Menu.Item as='a' href="/"><h4>首 頁</h4></Menu.Item>
@@ -78,8 +77,7 @@ export class MobileNavigation extends Component {
                                 <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
                             </div>
                         </Sidebar.Pusher>
-                    </Sidebar.Pushable>
-                    </div>
+                    </Sidebar.Pushable>                    
                 /*</Responsive> */
             )
         }
