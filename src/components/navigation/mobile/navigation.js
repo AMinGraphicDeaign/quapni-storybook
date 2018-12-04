@@ -1,13 +1,11 @@
 import React,{ Component } from 'react'
 import {
-    Responsive,
     Segment,
     Sidebar,
     Icon,
     Menu,
     Accordion,
     Item,
-    Image
 } from 'semantic-ui-react'
 import './navigation.css'
 import '../../../images/logo'
@@ -78,7 +76,7 @@ export class MobileNavigation extends Component {
                             </div> */}
                         </Sidebar.Pusher>
                     </Sidebar.Pushable>                    
-                /*</Responsive> */
+            //    </Responsive>
             )
         }
     }
