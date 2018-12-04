@@ -12,7 +12,6 @@ import { Navigation } from '../components/navigation/desktop/navigation'
 import { Hero } from '../components/hero/hero'
 
 
-import { Application } from '../application/application'
 storiesOf('Components', module)
          .add('Navigation', () => <Navigation />)
          .add('NavigationHome', () => <NavigationHome />)
@@ -23,6 +22,3 @@ storiesOf('Components', module)
          .add('Slideshow',() => <Slideshow /> )
          .add('MobileSlideshow',() => <MobileSlideshow /> )
          .add('Hero',() => <Hero />)
-
-storiesOf('Application', module)         
-         .add('Application',() => <Application />)
