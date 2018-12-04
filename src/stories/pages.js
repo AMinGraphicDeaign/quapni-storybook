@@ -5,4 +5,4 @@ import { Home } from '../pages/home'
 
 storiesOf('Pages', module)
 	.add('Home', () => <Home />)
-	.add('Brand', () => <Home />)
+	// .add('Brand', () => <Home />)
