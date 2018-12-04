@@ -44,7 +44,7 @@ export const Footer = () => (
                                             service@quapni.com.tw<br />
                                             04 - 25605778<br />
 
-                                            <h4>服務時間</h4>
+                                            <h4 className="footer-box">服務時間</h4>
                                             09:00-17:00 (不含例假日)
                                         </p>
                                     </div>

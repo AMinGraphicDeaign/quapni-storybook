@@ -37,6 +37,12 @@ body {
     margin-right:0;
 }
 
+/*  在電腦版時 撐寬footer容器  */
+@media screen and (min-width: 1200px){
+    .footer-box{
+        margin-top: 80px;
+    }
+}
 
 /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* 控制 iphoneIcon 位置
