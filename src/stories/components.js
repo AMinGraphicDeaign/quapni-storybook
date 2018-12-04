@@ -11,8 +11,7 @@ import { MobileNavigation } from '../components/navigation/mobile/navigation'
 import { Navigation } from '../components/navigation/desktop/navigation'
 import { Hero } from '../components/hero/hero'
 
-import { Brand } from '../brand/brand'
-import { Application } from '../application/application'
+
 storiesOf('Components', module)
          .add('Navigation', () => <Navigation />)
          .add('NavigationHome', () => <NavigationHome />)
@@ -23,9 +22,3 @@ storiesOf('Components', module)
          .add('Slideshow',() => <Slideshow /> )
          .add('MobileSlideshow',() => <MobileSlideshow /> )
          .add('Hero',() => <Hero />)
-
-storiesOf('Brand', module)
-         .add('Brand',() => <Brand />)
-
-storiesOf('Application', module)         
-         .add('Application',() => <Application />)
