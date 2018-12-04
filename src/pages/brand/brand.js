@@ -3,13 +3,15 @@ import React from 'react'
 import './brand.css'
 
 import { Container } from 'semantic-ui-react'
-import { camellia } from '../images/brand';
-import { quapni_logo } from '../images/logo';
-
-
+import { camellia } from '../../images/brand';
+import { quapni_logo } from '../../images/logo';
+ 
+import { Navigation } from '../../components/navigation/desktop/navigation'
+import { Footer } from '../../components/footer/footer'
 export const Brand = () => (
     <div>
         <title>品牌故事 - Quapni</title>
+        < Navigation />
         <Container>
             <img className="brand-logo" alt="quapni_logo" src={quapni_logo} />
             <h1 className="brand-slogan">突破 創新 舒適 精緻簡約</h1>
@@ -24,5 +26,6 @@ export const Brand = () => (
         <div className="brand-box">
             <img src={camellia} />
         </div>
+        <Footer />
     </div>
 )
