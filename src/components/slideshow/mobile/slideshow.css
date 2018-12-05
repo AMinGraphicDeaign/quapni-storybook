@@ -1,10 +1,10 @@
 /* 控制內文置中 */
-.text-box{
+.slideshow-text-box{
     text-align: center;
 }
 
 /* 口號：我們相信 唯有用心 才能看見與眾不同 */
-.mobile-slogan{
+.slideshow-slogan{
     color: #7E5E4C;
     font-size: 5vmin;
     line-height: 7vmin;
@@ -19,7 +19,7 @@
 }
 
 /*  內文 敘述介紹  */
-.product-intro{
+.slideshow-intro{
     border-top-color: rgb(20, 20, 20);
     border-bottom-color: rgb(20, 20, 20);
     border-right: none !important;
@@ -46,14 +46,14 @@
 }
 
 /*    內文 標題    */
-.product-intro-title{
+.slideshow-intro-title{
     font-size: 5.5vmin;
     font-weight: 600;
     margin-bottom: 3vmin;
 }
 
 /*  quapni logo */
-.logo-style{
+.slideshow-logo{
     width: 36vmin;
     height: auto;
     margin-top: 40vmin;

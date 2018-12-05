@@ -24,7 +24,7 @@ export class Slideshow extends Component {
                 <Slider {...settings} className="slick-wrapper">
                     <div className="slick-img-mask">
                         <img src={working} />
-                        <div className="slogan">
+                        <div className="slick-slogan">
                             我們相信<br />唯有用心堅持<br />才能看見與眾不同
                         </div>
                     </div>
@@ -32,7 +32,7 @@ export class Slideshow extends Component {
                     <div className="slick-img-mask">
                         <img src={nazaca_01} />
                         <div className="slick-title">前打輪</div>
-                        <div className="paragraph-style">
+                        <div className="slick-paragraph">
                             <div>單款風格化。固定柄設計</div><br />
                             <div style={{ color: "#ff7576" }}>高品質輪座 堅固耐用</div>
                         </div>
@@ -41,7 +41,7 @@ export class Slideshow extends Component {
                     <div className="slick-img-mask">
                         <img src={nazaca_02} />
                         <div className="slick-title">納茲卡</div>
-                        <div className="paragraph-notestyle">
+                        <div className="slick-paragraph-notestyle">
                             <div>靈活無限。順暢無阻</div><br />
                             <div style={{ color: "#ff7576", fontSize: "3vmin" }}><b>日本第一品牌 NSK 培林</b></div>
                         </div>
@@ -50,7 +50,7 @@ export class Slideshow extends Component {
                     <div className="slick-img-mask">
                         <img src={camellia_01} />
                         <div className="slick-title">山茶</div>
-                        <div className="paragraph-style">
+                        <div className="slick-paragraph">
                             <div>專利設計 - 壓鈕機構快拆</div><br />
                             <div style={{ color: "#ff7576" }}><b>1秒快速拆卸</b></div>
                         </div>

@@ -16,7 +16,7 @@ body {
     color: floralwhite;
 }
 
-.separation-line
+.footer-separation-line
 {
     width: 1200px;
     height: 1px;
@@ -26,7 +26,7 @@ body {
     overflow: hidden;
 }
 
-.icon-size
+.footer-icon-size
 {
     width:40px;
     margin:3.6px;
@@ -48,7 +48,7 @@ body {
 /* 控制 iphoneIcon 位置
 在桌面版、ipad、ipad pro 至右 */
 @media screen and (min-width: 768px){
-    .application-layout{
+    .footer-application-layout{
        text-align: right;
        margin-left: 10vmin;
     }
@@ -57,20 +57,21 @@ body {
 
 /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
 /*        手 機 版         */
-@media screen and (max-width: 767px){
-    .mobile-layout{
+@media screen and (max-width: 767px){ 
+    .footer-mobile-layout{
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-size: 5vmin;
     }
-    .mobile-layout h4{
+    .footer-mobile-layout h4{
         font-size: 7vmin;
     }
-    .application-layout{
+    .footer-application-layout{
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-    .application-layout h4{
+    .footer-application-layout h4{
         font-size: 7vmin;
     }
 }
+

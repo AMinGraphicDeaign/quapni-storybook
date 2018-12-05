@@ -66,7 +66,7 @@
 }
 
 /* 口號：我們相信 唯有用心堅持 才能看見與眾不同 */
-.slogan{
+.slick-slogan{
     font-size: 5vmin;
     font-style:italic;
     line-height: 8vmin;
@@ -81,7 +81,7 @@
 }
 
 /*  內文 設定 */
-.paragraph-style{
+.slick-paragraph{
     border-top-color: rgb(20, 20, 20);
     border-bottom-color: #ff7576;
     border-right: none !important;
@@ -105,7 +105,7 @@
 }
 
 /*  內文 有半透明底色 設定 */
-.paragraph-notestyle{
+.slick-paragraph-notestyle{
     border-top-color: rgb(20, 20, 20);
     border-bottom-color: #ff7576;
     border-right: none !important;
@@ -144,7 +144,7 @@
  }
 
  /* 口號：我們相信 唯有用心堅持 才能看見與眾不同 */
- .slogan{
+ .slick-slogan{
     font-size: 3.6vmin;
     font-style:italic;
     line-height: 6vmin;

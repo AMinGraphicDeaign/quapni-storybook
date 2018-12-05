@@ -54,7 +54,7 @@ export class NavigationHome extends Component {
                                         <a className="browse-item" href="#" style={{ paddingTop: 16, paddingBottom: 20 }}>
                                             商品分類
                                                 </a>
-                                        <div className="megamenu widget center">
+                                        <div className="megamenu menu-widget menu-center">
                                             <div className="blur" />
                                             <div className="ui container">
                                                 <div className="ui five column relaxed equal height divided stackable grid">
