@@ -20,13 +20,13 @@
     bottom: -50px;
 }
 
-.widget {
+.menu-widget {
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
 
-.center {
+.menu-center {
     position: absolute;
     margin: auto;
 }
