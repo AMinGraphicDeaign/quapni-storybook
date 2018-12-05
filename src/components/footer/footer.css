@@ -44,6 +44,32 @@ body {
     }
 }
 
+/*  在ipad pro 12.9吋 撐寬footer容器  */
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+    .footer-box{
+        margin-top: 100px;
+    }
+    .footer-mobile-layout{
+        margin-top: 2.5rem;
+    }
+    .footer-application-layout{
+        text-align: right;
+        margin-left: 10vmin;
+        margin-top: 2.5rem;
+     }
+     .footer-separation-line{
+        width: 1200px;
+        height: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 0;
+        background: #3F3F3F;
+        overflow: hidden;
+}
+}
+
 /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* 控制 iphoneIcon 位置
 在桌面版、ipad、ipad pro 至右 */
