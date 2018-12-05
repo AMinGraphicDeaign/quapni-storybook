@@ -36,7 +36,7 @@ export const Footer = () => (
                     <ThemeProvider theme={theme}>
                         <Grid className="footer-container">
                             <Row>
-                                <Col xs={12} sm={4} md={3} lg={3} className="mobile-layout">
+                                <Col xs={12} sm={4} md={3} lg={3} className="footer-mobile-layout"> 
                                     <h4>聯絡資訊</h4>
                                     <div>
                                         <p>
@@ -50,7 +50,7 @@ export const Footer = () => (
                                     </div>
                                 </Col>
                                
-                                <Col xs={12} sm={2} md={2} lg={1} className="mobile-layout">
+                                <Col xs={12} sm={2} md={2} lg={1} className="footer-mobile-layout">
                                     <h4>說明</h4>
                                     <div className="ui inverted link list">
                                         <a className="item" href="#"> 得獎認證 </a>
@@ -59,7 +59,7 @@ export const Footer = () => (
                                     </div>
                                 </Col>
                                 
-                                <Col xs={12} sm={2}  md={2} lg={1} className="mobile-layout">
+                                <Col xs={12} sm={2}  md={2} lg={1} className="footer-mobile-layout">
                                     <h4>服務</h4>
                                     <div className="ui inverted link list">
                                         <a className="item" href="#"> 查找商家 </a>
@@ -67,27 +67,27 @@ export const Footer = () => (
                                     </div>
                                 </Col>
                                
-                                <Col xs={12} sm={3}  md={4} lgOffset={4} lg={2} className="mobile-layout">
+                                <Col xs={12} sm={3}  md={4} lgOffset={4} lg={2} className="footer-mobile-layout">
                                     <h4>相關連結</h4>
                                     <div className="ui inverted link list">
                                         <a href="https://www.instagram.com/quapni/" target="_blank">
-                                            <img className="icon-size" alt="instagramIcon" src={instagram} />
+                                            <img className="footer-icon-size" alt="instagramIcon" src={instagram} />
                                         </a>
                                         <a href="https://www.facebook.com/quapni/" target="_blank">
-                                            <img className="icon-size" alt="facebookIcon" src={facebook} />
+                                            <img className="footer-icon-size" alt="facebookIcon" src={facebook} />
                                         </a>
                                         <a href="https://www.youtube.com/user/quapni" target="_blank">
-                                            <img className="icon-size" alt="yotubeIcon" src={youtube} />
+                                            <img className="footer-icon-size" alt="yotubeIcon" src={youtube} />
                                         </a>
                                     </div>
                                 </Col>
                                 
                                 <Col xs={12} sm={1} md={1} lg={1}>
-                                    <div className="application-layout">
+                                    <div className="footer-application-layout">
                                         <h4>APP</h4>
                                         <div className="ui inverted link list">
                                             <a href="/appIntro">
-                                                <img className="icon-size" alt="iphoneIcon" src={iphone} />
+                                                <img className="footer-icon-size" alt="iphoneIcon" src={iphone} />
                                             </a>
                                         </div>
                                     </div>
@@ -97,7 +97,7 @@ export const Footer = () => (
                     </ThemeProvider>
 
                     {  /*  分 隔 線  div  */}
-                    <div className="separation-line" />
+                    <div className="footer-separation-line" />
                 </div>
 
                 <div className="footer-div">
